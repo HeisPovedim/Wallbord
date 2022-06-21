@@ -1,0 +1,53 @@
+button:
+  about: О шаблоне
+  back: Назад
+  go: Перейти
+  home: Главная
+  toggle_dark: Включить темный режим
+  toggle_langs: Сменить язык
+intro:
+  desc: Самостоятельный начальный шаблон Vite
+  dynamic-route: Демо динамического маршрута
+  hi: Привет, {name}!
+  whats-your-name: Как тебя зовут?
+not-found: Не найден
+page-article:
+  qrCode-text: Читайте об<br>этом на Хабр
+bgFour:
+  logo-text: Большой путь начинается здесь
+article-page:
+  text-title-span-one: LEGO
+  text-title-span-two: Epic Games
+  text-title-p-one: и
+  text-title-p-two: договорились о создании метавселенной для детей
+  text-content: LEGO Group и Epic Games рассказали, что заключили договор о долгосрочном партнерстве.
+  text-qrCode-one: Читайте об 
+  text-qrCode-two: этом на Хабр
+employee:
+  text-top-one: Желаем здорово
+  text-top-two: отдохнуть и набраться
+  text-top-three: свежих сил в отпуске!
+  text-buttom: Ждем обратно!
+birthdayBoard:
+  title: С Днем Рождения!
+  name: ГЛЕБ НИКОНОВ
+  basic-one: Успехов в работе, удачи по
+  basic-two: жизни, счастья в каждом новом
+  basic-three: дне, улыбок и гармонии дома!
+russiaDayBoard:
+  text-title-one: Поздравляем
+  text-title-two: с днем россии
+  text-basic-one: Желаем всем счастливого будущего,
+  text-basic-two: светлых надежд и исполнения желаний
+advertisementBoard:
+  text-title: Внимание!
+  text-basic: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pretium felis venenatis, phasellus faucibus odio neque sed. A tortor nisi, convallis consectetur id mi donec nibh posuere. Fames nulla sed posuere ut. Proin magna neque sagittis sed eget augue neque.
+achievements:
+  text-board-head: Digital Skynet
+  text-board-body-receiving: Получена ачивка
+  text-board-body-name: Милана Тимофеевна
+  text-board-body-button-successful-PM/MR: Успешный PM/MR
+  text-board-body-button-closing-a-task: Закрытие задачи
+  text-board-body-button-lively: Живчик
+  text-board-body-button-hard-worker: Работяга
+  text-board-body-button-early-bird: Ранняя пташка

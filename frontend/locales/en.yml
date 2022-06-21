@@ -1,0 +1,51 @@
+button:
+  about: About
+  back: Back
+  go: GO
+  home: Home
+  toggle_dark: Toggle dark mode
+  toggle_langs: Change languages
+intro:
+  desc: Opinionated Vite Starter Template
+  dynamic-route: Demo of dynamic route
+  hi: Hi, {name}!
+  whats-your-name: What's your name?
+not-found: Not found
+bgFour:
+  logo-text: The great journey begins here
+article-page:
+  text-title-span-one: LEGO
+  text-title-span-two: Epic Games
+  text-title-p-one: and
+  text-title-p-two: we have agreed to create a metaverse for children
+  text-content: LEGO Group and Epic Games they said that they had signed a long-term partnership agreement.
+  text-qrCode-one: Read about
+  text-qrCode-two: this is on Habr
+employee:
+  text-top-one: We wish you great
+  text-top-two: relax and get drunk
+  text-top-three: fresh energy on vacation!
+  text-buttom: We are waiting for you back!
+birthdayBoard:
+  title: Happy Birthday!
+  name: GLEB NIKONOV
+  basic-one: Good luck in your work, good luck on
+  basic-two: life, happiness in every new
+  basic-three: days, smiles and harmony at home!
+russiaDayBoard:
+  text-title-one: Congratulations 
+  text-title-two: on the Day of Russia
+  text-basic-one: We wish everyone a happy future,
+  text-basic-two: bright hopes and fulfillment of desires
+advertisementBoard:
+  text-title: Attention!
+  text-basic: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pretium felis venenatis, phasellus faucibus odio neque sed. A tortor nisi, convallis consectetur id mi donec nibh posuere. Fames nulla sed posuere ut. Proin magna neque sagittis sed eget augue neque.
+achievements:
+  text-board-head: Digital Skynet
+  text-board-body-receiving: The achievement was received
+  text-board-body-name: Milana Timofeivna
+  text-board-body-button-successful-PM/MR: Successful PM/MR
+  text-board-body-button-closing-a-task: Closing a task
+  text-board-body-button-lively: Lively
+  text-board-body-button-hard-worker: Hard worker
+  text-board-body-button-early-bird: Early bird

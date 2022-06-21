@@ -1,0 +1,13 @@
+.git/
+**/.vs/
+**/.vscode/
+**/.idea/
+*.Dockerfile
+*.md
+docker-compose.yml
+database/
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/.angular/

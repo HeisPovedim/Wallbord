@@ -1,0 +1,39 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  BRANCH_ENV_MAPPING: development=dev;main=dev;cicd=cicd
+  APP_NAME: wallboard
+
+include:
+  - project: 'digitalskynet/gitlab-essentials'
+    ref: master
+    file: '/ci/build/docker.yml'
+  - project: 'digitalskynet/gitlab-essentials'
+    ref: master
+    file: '/ci/deploy/kapitan.yml'
+
+just build frontend:
+  extends: .just_build_container_template
+  variables:
+    APP_TIER: frontend
+
+build frontend:
+  extends: .build_container_template
+  variables:
+    APP_TIER: frontend
+
+just build backend:
+  extends: .just_build_container_template
+  variables:
+    APP_TIER: backend
+
+build backend:
+  extends: .build_container_template
+  variables:
+    APP_TIER: backend
+
+deploy:
+  variables:
+    TARGET_KAPITAN: 129

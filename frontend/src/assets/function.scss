@@ -1,0 +1,4 @@
+@function in-percentages($width, $px) {
+  $result: calc($width / $px) * 100%;
+  @return $result;
+}

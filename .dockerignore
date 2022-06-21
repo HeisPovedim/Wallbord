@@ -1,0 +1,11 @@
+.git/
+.vs/
+.idea/
+*.Dockerfile
+*.md
+docker-compose.yml
+database/
+bin/
+obj/
+node_modules/
+frontend/node_modules/

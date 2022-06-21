@@ -1,0 +1,15 @@
+version: '3'
+services:
+  proxy:
+    image: registry.digitalskynet.com/the-visualizer/the-visualizer-proxy/dev/proxy
+    build:
+      dockerfile: proxy.Dockerfile
+      context: .
+      args:
+        COMMIT_SHA: '000000'
+        COMMIT_REF_NAME: 'local build'
+    env_file:
+      - '.env'
+
+    ports:
+      - 8080:80
